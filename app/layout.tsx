@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "League Reference",
+  title: "LOL Ref",
   description: "Quick reference for League of Legends champions, items, and runes",
+  icons: {
+    icon: "/league-icon.ico",
+  },
 };
 
 function Nav() {
@@ -26,7 +29,7 @@ function Nav() {
           href="/"
           className="text-yellow-400 font-bold text-lg hover:text-yellow-300 transition-colors cursor-pointer"
         >
-          LEAGUE REF
+          LOL REF
         </Link>
         <div className="flex gap-4">
           <Link
@@ -46,6 +49,12 @@ function Nav() {
             className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors cursor-pointer"
           >
             Runes
+          </Link>
+          <Link
+            href="/map"
+            className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors cursor-pointer"
+          >
+            Map
           </Link>
         </div>
       </div>

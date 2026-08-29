@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "regions": {
+    "Ionia": {
+      "fullDescription": "Known as the First Lands, Ionia is an archipelago of unspoiled beauty where natural magic flows freely. The border between the material and spirit realms is thin here, especially in the wild forests and mountains. For millennia, Ionians pursued balance and enlightenment, living in harmony with nature through countless orders, sects, and traditions.\n\nThis peace was shattered when Noxus invaded. The brutal occupation forced Ionians to question their pacifist ideals. Some, like the Kinkou Order, seek to restore balance and isolationism. Others have embraced militarization to prevent future invasions. This philosophical divide now defines modern Ionia.",
+      "geography": "A massive archipelago in the eastern seas, Ionia consists of the main island split by mountains into Navori and Shon-Xan, surrounded by countless smaller islands. Notable locations include Zhyun Island, the Placidium, Omikayalan (the Heart of the World), and the sacred Dreaming Tree.",
+      "culture": "Ionian culture values balance, inner strength, and harmony with nature. Many orders and sects follow different paths: the Kinkou maintain cosmic balance, the Order of Shadow embraces darkness, and various monasteries preserve ancient martial arts. The vastaya, magical chimeric beings, call Ionia home.",
+      "history": "Ancient home of the vastaya and site of the God-Willow. Remained isolated and neutral for millennia until the Noxian Invasion devastated the land. The Battle of the Placidium became a turning point where Ionian resistance, led by heroes like Irelia, finally pushed back Noxus. The war ended twelve years ago but its scars remain.",
+      "factions": [
+        { "name": "Kinkou Order", "description": "Maintain balance between realms. Led by Shen.", "champions": ["Shen", "Kennen"] },
+        { "name": "Order of Shadow", "description": "Former Kinkou who embrace forbidden techniques.", "champions": ["Zed", "Kayn"] },
+        { "name": "Navori Brotherhood", "description": "Militant resistance fighters.", "champions": ["Irelia"] },
+        { "name": "Vastaya", "description": "Magical chimeric beings native to Ionia.", "champions": ["Ahri", "Rakan", "Xayah", "Wukong"] }
+      ],
+      "relationships": [
+        { "champion1": "Shen", "champion2": "Zed", "type": "rivals", "description": "Former brothers in the Kinkou, now bitter enemies after Zed killed Shen's father." },
+        { "champion1": "Xayah", "champion2": "Rakan", "type": "lovers", "description": "Vastayan rebels fighting together. Rakan joined Xayah's cause out of love." },
+        { "champion1": "Yasuo", "champion2": "Yone", "type": "brothers", "description": "Brothers separated by death. Yasuo was falsely blamed for their master's death; Yone returned from the spirit realm." },
+        { "champion1": "Akali", "champion2": "Shen", "type": "former_allies", "description": "Akali left the Kinkou, believing their passive approach failed Ionia." },
+        { "champion1": "Kayn", "champion2": "Zed", "type": "master_student", "description": "Zed trained Kayn, who now hosts the Darkin Rhaast." },
+        { "champion1": "MasterYi", "champion2": "Wukong", "type": "master_student", "description": "Yi taught Wukong the art of Wuju." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Irelia", "otherChampion": "Swain", "otherRegion": "Noxus", "type": "enemies", "description": "Irelia severed Swain's arm at the Placidium." },
+        { "champion": "Riven", "region": "Noxus", "type": "exile", "description": "Noxian soldier who defected after witnessing atrocities in Ionia." },
+        { "champion": "Jhin", "otherChampion": "Shen", "type": "enemies", "description": "Serial killer Jhin was captured by Shen and Zed working together before their split." }
+      ]
+    },
+    "Noxus": {
+      "fullDescription": "A powerful empire built on military might and the belief that anyone can rise through strength and ambition. Unlike other nations, Noxus judges people by their abilities rather than birth. This meritocracy has created a diverse nation where former slaves can become generals.\n\nCurrently ruled by Jericho Swain after he orchestrated a coup, Noxus continues its expansionist policies while dealing with internal power struggles between noble houses and the mysterious Black Rose cabal.",
+      "geography": "A vast empire spanning much of Valoran, centered on the Immortal Bastion. The capital city is built in layers, with newer construction constantly rising above the old.",
+      "culture": "Strength above all. Noxians believe power is the truest measure of worth, whether through military might, political cunning, or magical ability. Art and culture thrive alongside warfare.",
+      "history": "Founded by ancient warlords who united warring tribes. Expanded across Valoran through conquest. The failed invasion of Ionia led to Swain's rise and a new direction for the empire.",
+      "factions": [
+        { "name": "Trifarix", "description": "Three rulers representing Vision (Swain), Might (Darius), and Guile.", "champions": ["Swain", "Darius"] },
+        { "name": "Black Rose", "description": "Ancient cabal manipulating Noxus from the shadows.", "champions": ["Leblanc", "Vladimir"] },
+        { "name": "Du Couteau Family", "description": "Noble house of assassins.", "champions": ["Katarina", "Talon", "Cassiopeia"] }
+      ],
+      "relationships": [
+        { "champion1": "Darius", "champion2": "Draven", "type": "brothers", "description": "Brothers who rose from nothing to become Noxian legends." },
+        { "champion1": "Katarina", "champion2": "Talon", "type": "siblings", "description": "Adopted siblings of the Du Couteau family." },
+        { "champion1": "Swain", "champion2": "Leblanc", "type": "rivals", "description": "Swain knows of the Black Rose and opposes their manipulation." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Katarina", "otherChampion": "Garen", "otherRegion": "Demacia", "type": "complicated", "description": "Enemies by duty, but mutual respect exists between them." },
+        { "champion": "Riven", "otherRegion": "Ionia", "type": "exile", "description": "Defected after the chemical weapon attack on Ionians." }
+      ]
+    },
+    "Demacia": {
+      "fullDescription": "A proud kingdom built on ideals of justice, honor, and duty. Demacia was founded by refugees fleeing the Rune Wars who settled in a region rich in petricite, a magic-absorbing stone. This led to a deep cultural fear of magic.\n\nDemacia's anti-magic policies create tension, as mages must hide their abilities or face imprisonment. The Mageseekers hunt magical individuals while noble houses vie for influence in the king's court.",
+      "geography": "A verdant kingdom in western Valoran, protected by mountains and dense forests. The capital is built with petricite, giving it a distinctive white appearance.",
+      "culture": "Honor, duty, and self-sacrifice define Demacian values. Magic is feared and suppressed, though this stance is increasingly challenged.",
+      "history": "Founded by refugees of the Rune Wars. Built a powerful military tradition. Currently dealing with internal strife over magic suppression and noble politics.",
+      "factions": [
+        { "name": "Dauntless Vanguard", "description": "Elite military force.", "champions": ["Garen", "Quinn"] },
+        { "name": "Mageseekers", "description": "Hunt and imprison mages.", "champions": [] },
+        { "name": "Noble Houses", "description": "Crownguard, Laurent, Buvelle, and others.", "champions": ["Garen", "Lux", "Fiora", "Sona"] }
+      ],
+      "relationships": [
+        { "champion1": "Garen", "champion2": "Lux", "type": "siblings", "description": "Garen protects Lux's secret magical abilities." },
+        { "champion1": "Lux", "champion2": "Sylas", "type": "complicated", "description": "Lux once showed Sylas kindness; he used her magic to escape and start a mage rebellion." },
+        { "champion1": "Kayle", "champion2": "Morgana", "type": "sisters", "description": "Twin Aspects with opposing views on justice. Kayle believes in punishment, Morgana in redemption." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Garen", "otherChampion": "Katarina", "otherRegion": "Noxus", "type": "complicated", "description": "Enemies who share mutual respect." },
+        { "champion": "Lucian", "otherChampion": "Thresh", "otherRegion": "Shadow Isles", "type": "enemies", "description": "Thresh imprisoned Senna's soul; Lucian hunts him." }
+      ]
+    },
+    "Freljord": {
+      "fullDescription": "A harsh, frozen land where survival requires strength and the land itself can kill the unprepared. Three major tribes wage an ancient war for control: Ashe's Avarosans seek peace through unity, Sejuani's Winter's Claw believe only the strong survive, and Lissandra's Frostguard guard terrible secrets.\n\nBeneath the ice sleep ancient horrors, and demigods like Volibear and Ornn walk the frozen wastes.",
+      "geography": "A vast frozen tundra in northern Valoran. Howling Abyss, a bottomless chasm, holds ancient secrets. The land is dotted with tribal settlements and ancient ruins.",
+      "culture": "Strength and survival define Freljordian life. Tribal loyalty is paramount. Ancient traditions and shamanic practices remain strong.",
+      "history": "Once a verdant land before the Three Sisters (Avarosa, Serylda, Lissandra) brought eternal winter. The tribes descend from these sisters and have warred ever since.",
+      "factions": [
+        { "name": "Avarosan", "description": "Seek to unite Freljord peacefully.", "champions": ["Ashe", "Braum", "Anivia", "Nunu"] },
+        { "name": "Winter's Claw", "description": "Believe survival requires strength and raiding.", "champions": ["Sejuani", "Olaf", "Udyr"] },
+        { "name": "Frostguard", "description": "Guard ancient secrets and serve Lissandra.", "champions": ["Lissandra", "Trundle"] }
+      ],
+      "relationships": [
+        { "champion1": "Ashe", "champion2": "Tryndamere", "type": "married", "description": "Political marriage that grew into genuine partnership." },
+        { "champion1": "Ashe", "champion2": "Sejuani", "type": "rivals", "description": "Childhood friends turned bitter enemies over tribal ideology." },
+        { "champion1": "Volibear", "champion2": "Ornn", "type": "brothers", "description": "Demigod brothers who clashed, destroying their sister Anivia's people." }
+      ],
+      "crossRegionRelationships": []
+    },
+    "Piltover": {
+      "fullDescription": "The City of Progress, a gleaming metropolis where science and innovation flourish. Built on the trade passing through the Sun Gates, Piltover's wealth funds ambitious inventors and maintains a sophisticated society.\n\nBeneath Piltover's shining towers lies Zaun, and the two cities share a complex, often exploitative relationship.",
+      "geography": "A city built above Zaun, featuring towering spires and hextech-powered infrastructure.",
+      "culture": "Innovation, commerce, and progress. Hextech technology powers the city. Social status often depends on wealth and innovation.",
+      "history": "Rose to prominence through the Sun Gates trade route. Hextech discovery accelerated its growth. Ongoing tensions with Zaun shape politics.",
+      "factions": [
+        { "name": "Wardens", "description": "Piltover's law enforcement.", "champions": ["Caitlyn", "Vi"] },
+        { "name": "Clans", "description": "Powerful merchant families.", "champions": ["Camille"] }
+      ],
+      "relationships": [
+        { "champion1": "Caitlyn", "champion2": "Vi", "type": "partners", "description": "Sheriff and enforcer, close partners in keeping Piltover safe." },
+        { "champion1": "Jayce", "champion2": "Viktor", "type": "former_friends", "description": "Once collaborators on hextech, now on opposite sides." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Caitlyn", "otherChampion": "Jinx", "otherRegion": "Zaun", "type": "enemies", "description": "Jinx terrorizes Piltover; Caitlyn hunts her." },
+        { "champion": "Vi", "otherChampion": "Jinx", "otherRegion": "Zaun", "type": "sisters", "description": "Estranged sisters on opposite sides of the law." }
+      ]
+    },
+    "Zaun": {
+      "fullDescription": "The undercity beneath Piltover, a sprawling labyrinth of industry and innovation unrestricted by safety or ethics. Chemtech fumes fill the air, creating both pollution and opportunity.\n\nZaun is where Piltover's rejects and visionaries alike find home. Criminal enterprises thrive alongside brilliant inventors working without oversight.",
+      "geography": "An underground city beneath Piltover, built in layers descending into darkness. Chemtech pipes and vents create a toxic but industrious environment.",
+      "culture": "Survival, innovation without limits, and a fierce independence. Chem-barons control much of the underworld.",
+      "history": "Originally part of Piltover, Zaun became the dumping ground for dangerous experiments and unwanted populations.",
+      "factions": [
+        { "name": "Chem-barons", "description": "Crime lords controlling Zaun's underworld.", "champions": [] },
+        { "name": "Firelights", "description": "Rebels fighting for Zaun's people.", "champions": ["Ekko"] }
+      ],
+      "relationships": [
+        { "champion1": "Vi", "champion2": "Jinx", "type": "estranged_sisters", "description": "Sisters separated by tragedy, now on opposite sides." },
+        { "champion1": "Viktor", "champion2": "Jayce", "type": "former_friends", "description": "Viktor seeks the Glorious Evolution while Jayce opposes him." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Warwick", "otherChampion": "Singed", "type": "creator", "description": "Singed transformed a dying man into Warwick." }
+      ]
+    },
+    "Bilgewater": {
+      "fullDescription": "A lawless port city where serpent hunters, smugglers, and pirates rule. No formal government exists; power belongs to whoever can take and hold it. The recent fall of Gangplank created a power vacuum that Miss Fortune exploits.\n\nBilgewater sits atop sunken ruins and worships the sea deity Nagakabouros through Illaoi's faith.",
+      "geography": "A port city built on cliffs overlooking treacherous seas. Sunken ships and ruins lie beneath the waters.",
+      "culture": "Strength, cunning, and opportunity. Trust is rare; betrayal is common. The sea is both livelihood and death.",
+      "history": "Founded by exiles and refugees who carved a home from unforgiving seas. Gangplank ruled until Miss Fortune orchestrated his fall.",
+      "factions": [
+        { "name": "Buhru", "description": "Followers of the sea god Nagakabouros.", "champions": ["Illaoi"] }
+      ],
+      "relationships": [
+        { "champion1": "MissFortune", "champion2": "Gangplank", "type": "enemies", "description": "Sarah killed Gangplank to avenge her mother." },
+        { "champion1": "Graves", "champion2": "TwistedFate", "type": "partners", "description": "Partners in crime with a complicated history." }
+      ],
+      "crossRegionRelationships": []
+    },
+    "Shadow Isles": {
+      "fullDescription": "Once the Blessed Isles, a beautiful realm of knowledge and enlightenment. When King Viego sought to resurrect his queen Isolde, he unleashed the Ruination, transforming the isles into a cursed land of undeath.\n\nThe Black Mist spreads from these shores, claiming souls for its eternal torment. Few living beings dare approach.",
+      "geography": "A cursed archipelago shrouded in the Black Mist. Twisted ruins of the once-beautiful Blessed Isles remain.",
+      "culture": "Death and undeath. The spirits here are bound by the Ruination, many seeking release or revenge.",
+      "history": "The Ruination transformed the Blessed Isles a thousand years ago. Recent events saw Viego attempt to complete his ritual.",
+      "factions": [],
+      "relationships": [
+        { "champion1": "Viego", "champion2": "Gwen", "type": "creator", "description": "Gwen was a doll made by Isolde, Viego's queen." },
+        { "champion1": "Thresh", "champion2": "Lucian", "type": "enemies", "description": "Thresh held Senna's soul captive." },
+        { "champion1": "Hecarim", "champion2": "Kalista", "type": "betrayer", "description": "Hecarim betrayed Kalista, leading to her death and undeath." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Thresh", "otherChampion": "Senna", "otherRegion": "Demacia", "type": "captor", "description": "Thresh imprisoned Senna for years." }
+      ]
+    },
+    "Shurima": {
+      "fullDescription": "An ancient desert empire that once ruled the known world. The Ascended, god-warriors empowered by the Sun Disc, led Shurima to glory before Xerath's betrayal brought its fall.\n\nNow Azir has returned to rebuild his empire, but the land remains dangerous, filled with ruins, sand creatures, and the corrupted Darkin.",
+      "geography": "A vast desert covering much of the southern continent. Ancient ruins dot the landscape, and the capital is being restored.",
+      "culture": "Empire, glory, and the sun. The Ascension ritual created god-warriors who served the emperor.",
+      "history": "Founded by Azir's ancestors. Rose to dominate the known world before Xerath destroyed it. Azir has returned to restore Shurima.",
+      "factions": [
+        { "name": "Ascended", "description": "God-warriors transformed by the Sun Disc.", "champions": ["Azir", "Nasus", "Renekton", "Xerath"] }
+      ],
+      "relationships": [
+        { "champion1": "Azir", "champion2": "Xerath", "type": "enemies", "description": "Friends who became enemies. Xerath's betrayal destroyed Shurima." },
+        { "champion1": "Nasus", "champion2": "Renekton", "type": "brothers", "description": "Brothers now enemies due to Xerath's manipulation in the tomb." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Taliyah", "otherChampion": "Yasuo", "otherRegion": "Ionia", "type": "student_master", "description": "Yasuo helped train Taliyah." }
+      ]
+    },
+    "Targon": {
+      "fullDescription": "A mountain that pierces the heavens, home to the Aspects - celestial beings that bond with mortal hosts. Those who climb Targon either die or are transformed.\n\nThe Rakkor tribes worship the mountain and its Aspects, sending warriors on pilgrimage to prove themselves worthy.",
+      "geography": "A impossibly tall mountain reaching into the celestial realm. The Rakkor tribes live at its base.",
+      "culture": "Worship of the Aspects and the celestial realm. Warrior traditions and religious devotion define Rakkor life.",
+      "history": "Ancient site of celestial power. The Aspects have guided and protected the world for millennia.",
+      "factions": [
+        { "name": "Solari", "description": "Sun worshippers.", "champions": ["Leona"] },
+        { "name": "Lunari", "description": "Moon worshippers, once persecuted.", "champions": ["Diana", "Aphelios"] }
+      ],
+      "relationships": [
+        { "champion1": "Leona", "champion2": "Diana", "type": "complicated", "description": "Once close, now divided by faith. Their relationship transcends simple rivalry." },
+        { "champion1": "Pantheon", "champion2": "Aatrox", "type": "enemies", "description": "Aatrox killed the Aspect; Atreus, the mortal host, now fights on." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "AurelionSol", "otherRegion": "Celestial", "type": "prisoner", "description": "The star dragon is enslaved by Targon's crown." }
+      ]
+    },
+    "The Void": {
+      "fullDescription": "Not a place but an absence - a dimension of pure nothingness that hungers to consume reality. The Void spawns creatures that exist only to devour and destroy.\n\nWatchers, ancient beings of terrifying power, seek to break through into Runeterra. Various Void-touched individuals resist or embrace this corruption.",
+      "geography": "A non-dimension of darkness. Breaches occasionally open in Runeterra, particularly in Icathia and the deserts.",
+      "culture": "Consumption and oblivion. Void creatures operate on alien logic beyond mortal comprehension.",
+      "history": "Existed before creation. Briefly touched Runeterra when Icathia summoned its power to fight Shurima, resulting in Icathia's destruction.",
+      "factions": [],
+      "relationships": [
+        { "champion1": "Kassadin", "champion2": "Kaisa", "type": "father_daughter", "description": "Separated when Kai'Sa was young, both now fight the Void." },
+        { "champion1": "Khazix", "champion2": "Rengar", "type": "rivals", "description": "Hunter and prey engaged in an eternal hunt." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Malzahar", "type": "prophet", "description": "Preaches the Void's coming." }
+      ]
+    },
+    "Bandle City": {
+      "fullDescription": "A mystical realm inhabited by yordles, small magical beings. Bandle City exists between the spirit and material realms, its location ever-shifting and impossible for non-yordles to find intentionally.\n\nYordles often venture into the mortal world out of curiosity, sometimes getting into trouble.",
+      "geography": "A pocket dimension of colorful, chaotic landscapes. Portals connect it to Runeterra at unpredictable points.",
+      "culture": "Playful, curious, and magical. Yordles have long lifespans and unique perspectives on the world.",
+      "history": "Ancient origin, existing alongside the spirit realm. Yordles have interacted with mortals throughout history.",
+      "factions": [],
+      "relationships": [
+        { "champion1": "Lulu", "champion2": "Veigar", "type": "complicated", "description": "Lulu sees Veigar as a friend; he finds her annoying." }
+      ],
+      "crossRegionRelationships": [
+        { "champion": "Teemo", "type": "scout", "description": "Serves in Bandle City's scouts, operating across Runeterra." }
+      ]
+    },
+    "Ixtal": {
+      "fullDescription": "A hidden jungle nation that has mastered elemental magic to an unparalleled degree. Ixtal deliberately isolated itself from the world after the Void War, hiding their civilization behind magical barriers.\n\nThe Yun Tal rule with absolute authority, and outsiders are rarely welcome.",
+      "geography": "Dense jungles hiding advanced cities. Magical barriers conceal their civilization from the outside world.",
+      "culture": "Elemental magic mastery and rigid hierarchy. The Yun Tal caste system determines social standing.",
+      "history": "Once part of the first great human civilization. Withdrew into isolation after the Void War devastated the world.",
+      "factions": [
+        { "name": "Yun Tal", "description": "Ruling caste of elemental mages.", "champions": ["Qiyana"] }
+      ],
+      "relationships": [
+        { "champion1": "Rengar", "champion2": "Khazix", "type": "rivals", "description": "Rengar hunts Kha'Zix after losing his eye to the Void creature." }
+      ],
+      "crossRegionRelationships": []
+    },
+    "Runeterra": {
+      "fullDescription": "Some champions belong to no single nation, wandering the world or existing outside mortal boundaries. These include cosmic entities, ancient beings, and those whose stories span multiple regions.",
+      "geography": "The entire world of Runeterra.",
+      "culture": "Varied - these champions come from all walks of life.",
+      "history": "Varied - each champion has their own story.",
+      "factions": [],
+      "relationships": [
+        { "champion1": "Kindred", "type": "death", "description": "The twin essences of death itself - Lamb offers a peaceful end, Wolf hunts those who flee." }
+      ],
+      "crossRegionRelationships": []
+    }
+  }
+}
